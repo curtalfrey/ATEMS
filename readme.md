@@ -2,6 +2,12 @@ Free open source project
 
 in Dev mode
 
+clone the repo and run these commands from the ATEMS directory, once python and pip are installed on Windows 10:
+`pip install --upgrade -r requirements.txt`
+`$env:FLASK_APP="atems:create_app"`
+`flask db init`
+`python atems.py`
+
 
 ATEMS - Automated Tool and Equipment Management System
 

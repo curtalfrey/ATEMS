@@ -19,7 +19,7 @@ def create_app():
     app = Flask(__name__)
     
     # Set the database URI from environment variable
-    app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://CLU:123!z2@localhost/ATEMS" 
+    app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://CLU:abc123@localhost/ATEMS" 
     
 
     # Set the secret key from environment variable
