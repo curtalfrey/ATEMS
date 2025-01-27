@@ -10,7 +10,7 @@ Flask-SQLAlchemy==3.1.1
 SQLAlchemy==2.0.25
 alembic==1.13.1
 Flask-Migrate==4.0.5
-PyMySQL==1.1.0
+PyMySQL==1.1.1
 
 # Authentication
 Flask-Login==0.6.3
